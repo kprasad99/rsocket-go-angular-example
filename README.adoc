@@ -1,0 +1,42 @@
+
+# RSocket Go with Angular
+
+An example project for resocket with go and angular.
+
+## How to run
+
+### Angular
+
+- change directory to ui
++
+[bash]
+----
+$ cd rsocket-angular-io
+----
+- Install depedencies
+[bash]
+----
+$ npm install
+----
+- Bringup dev server
+[bash]
+----
+$ ng serve
+----
+
+### Golang
+- change directory to serer
+[bash]
+----
+$ cd server
+----
+- Install depedencies
+[bash]
+----
+$ go mod tidy
+----
+- Bringup server
+[bash]
+----
+$ go run main.go
+----
